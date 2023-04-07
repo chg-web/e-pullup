@@ -1,0 +1,9 @@
+# V1.00
+# sanitize.cf
+# Rules for filters postfix (header) 
+# Par CHG-WEB - Cédric MONTUY
+
+# juste ignore
+/^Received:(.*)/ IGNORE
+/^X-Sender:(.*)/ IGNORE
+/^Received:(.*)with ESMTPSA/  IGNORE
