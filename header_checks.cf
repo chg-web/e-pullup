@@ -41,19 +41,19 @@
 /^Subject:(.*)[Ss]ildenalfil/i                                          REJECT Possible SPAM
 /^Subject:(.*)[Cc]itrate/i                                              REJECT Possible SPAM
 /^Subject:(.*)[Ee]nzyte/i                                               REJECT Possible SPAM 
-/^Subject:(.*)Your Account is Suspended For Security Reasons/           REJECT Possible PHISING
-/^Subject:(.*)Warning Message: Your services near to be closed/         REJECT Possible PHISING
-/^Subject:(.*)[Yy]our password has been successfully updated/           REJECT Possible PHISING
-/^Subject:(.*)You have successfully updated your password/              REJECT Possible PHISING
-/^Subject:(.*)Members Support/                                          REJECT Possible PHISING
+/^Subject:(.*)Your Account is Suspended For Security Reasons/           REJECT Possible PHISHING
+/^Subject:(.*)Warning Message: Your services near to be closed/         REJECT Possible PHISHING
+/^Subject:(.*)[Yy]our password has been successfully updated/           REJECT Possible PHISHING
+/^Subject:(.*)You have successfully updated your password/              REJECT Possible PHISHING
+/^Subject:(.*)Members Support/                                          REJECT Possible PHISHING
 /^Subject:(.*)Screen Saver/i                                            REJECT Possible VIRUS
 /^Subject:(.*)ETNA France/                                              REJECT SPAM
 /^Subject:(.*)MODJ/                                                     REJECT SPAM
 /^Subject:(.*)MODS/                                                     REJECT SPAM
-/^Subject:.*Free Cellular Phone/                                        REJECT Possible PHISING
+/^Subject:.*Free Cellular Phone/                                        REJECT Possible PHISHING
 /^Subject:.*Simple Fix that lowered Blood Pressure without drugs/       REJECT Possible SPAM
-/^Subject:.*Impost\.gouv\.fr/                                                                   REJECT Possible Phising
-/^Subject:Impost\.gouv\.fr.*/                                                                   REJECT Possible Phising
+/^Subject:.*Impost\.gouv\.fr/                                                                   REJECT Possible PHISHING
+/^Subject:Impost\.gouv\.fr.*/                                                                   REJECT Possible PHISHING
 #Divers
 /opt-in/                                                                REJECT Possible SPAM 
 /(.*)?\{6,\}/                                                           REJECT Too many ?????
@@ -180,20 +180,20 @@
 /^(To|From|Cc|Reply-To):.*comparechoisir\.fr/                           REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*la-une-du-web\.fr/                            REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*newsconso\.fr/                                REJECT Possible SPAM
-/^(To|From|Cc|Reply-To):www\.credit-agricole\.fr@ovh\.com/              REJECT PHISING
-/^(To|From|Cc|Reply-To):www\.credit-agricole\.fr-851076@mail\.com/      REJECT PHISING
-/^(To|From|Cc|Reply-To):.*t-online\.de/                                 REJECT PHISING
+/^(To|From|Cc|Reply-To):www\.credit-agricole\.fr@ovh\.com/              REJECT PHISHING
+/^(To|From|Cc|Reply-To):www\.credit-agricole\.fr-851076@mail\.com/      REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*t-online\.de/                                 REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*ns-conseil\.fr/                               REJECT Possible SPAM
-/^(To|From|Cc|Reply-To):.*affairsact\.com/                              REJECT Possible PHISING
+/^(To|From|Cc|Reply-To):.*affairsact\.com/                              REJECT Possible PHISHING
 /^(To|From|Cc|Reply-To):.*5teacher\.com/                                REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*macneews\.fr/                                 REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*@savoiracheter\.net/                          REJECT Possible SPAM
-/^(To|From|Cc|Reply-To):o\.office93@aol\.com/                           REJECT Possible PHISING
+/^(To|From|Cc|Reply-To):o\.office93@aol\.com/                           REJECT Possible PHISHING
 /^(To|From|Cc|Reply-To):.*@stock\.tealconnektalfa\.top/                 REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):centralbnkofnigeria.*@outlook\.com/             REJECT Possible arnaque
 /^(To|From|Cc|Reply-To):.*@ggccp\.com/                                  REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*bizml\.ru/                                    REJECT Possible SPAM
-/^(To|From|Cc|Reply-To):.@kjell-arne\.com/                              REJECT Possible Phising
+/^(To|From|Cc|Reply-To):.@kjell-arne\.com/                              REJECT Possible PHISHING
 /^(To|From|Cc|Reply-To):.*@ds\.lecoindesofferes\.com/                   REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*@learntoglide\.com/                           REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):may@stdusfc\.cn/                                REJECT No thanks
@@ -203,7 +203,7 @@
 /^(To|From|Cc|Reply-To):.*@stewardship-news\.org/                       REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*@gosquared\.com/                              REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*@outspot\.fr/                                 REJECT Possible SPAM
-/^(To|From|Cc|Reply-To):.*@domainianca2\.com/                           REJECT PHISING
+/^(To|From|Cc|Reply-To):.*@domainianca2\.com/                           REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*@aleteia\.org/                                REJECT Possible arnaque
 /^(To|From|Cc|Reply-To):.*@post-gazette\.com/                           REJECT Possible arnaque
 /^(To|From|Cc|Reply-To):jared\.killian4@yahoo\.com/                     REJECT Possible SPAM
@@ -258,31 +258,31 @@
 /^(To|From|Cc|Reply-To):authentification@client\.com/                   REJECT Possible arnaque
 /^(To|From|Cc|Reply-To):no-reply@healthtrials\.co/                      REJECT Possible arnaque
 /^(To|From|Cc|Reply-To):.*viehealthy.*/                                 REJECT Possible SPAM
-/^(To|From|Cc|Reply-To):noreply@rei\.com/                               REJECT phishing
+/^(To|From|Cc|Reply-To):noreply@rei\.com/                               REJECT PHISHING
 /^(To|From|Cc|Reply-To):*@cijang\.com/                                  REJECT Possible arnaque
-/^(To|From|Cc|Reply-To):noreply@madeira\.com/                           REJECT phishing
-/^(To|From|Cc|Reply-To):noreply@maisonbrico\.com/                       REJECT phishing 
+/^(To|From|Cc|Reply-To):noreply@madeira\.com/                           REJECT PHISHING
+/^(To|From|Cc|Reply-To):noreply@maisonbrico\.com/                       REJECT PHISHING 
 /^(To|From|Cc|Reply-To):.*@contacteur2\.top/                            REJECT possible SPAM
 /^(To|From|Cc|Reply-To):.*\.click/                                      REJECT SPAM
 /^(To|From|Cc|Reply-To):.*\.monster/                                    REJECT SPAM
 /^(To|From|Cc|Reply-To):.*\.quest/                                      REJECT SPAM
-/^(To|From|Cc|Reply-To):.*@ame-sens\.fr/                                REJECT PHISING
+/^(To|From|Cc|Reply-To):.*@ame-sens\.fr/                                REJECT PHISHING
 /^(To|From|Cc|Reply-To):info@recouvrement-credit\.com/                  REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@pipgek\.ru/                                  REJECT SPAM
-/^(To|From|Cc|Reply-To):.*@siloex\.online/                              REJECT PHISING
-/^(To|From|Cc|Reply-To):.*@stickr\.co/                                  REJECT PHISING
-/^(To|From|Cc|Reply-To):.*@nickname\.berlin\.de/                        REJECT phishing
-/^(To|From|Cc|Reply-To):.*@decno\.jp/                                   REJECT phishing
-/^(To|From|Cc|Reply-To):.*@panoramobe/                                  REJECT phishing
-/^(To|From|Cc|Reply-To):.*@si-net\.it/                                  REJECT phishing
-/^(To|From|Cc|Reply-To):.*@dvtrace\.com/                                REJECT phishing
-/^(To|From|Cc|Reply-To):.*@uparcel\.sg/                                 REJECT phishing
-/^(To|From|Cc|Reply-To):helderatosta@gmail\.com/                        REJECT phishing
-/^(To|From|Cc|Reply-To):.*@nhs\.net/                                    REJECT phishing
-/^(To|From|Cc|Reply-To):.*@ballard\.visualizeideate\.com/               REJECT phishing
-/^(To|From|Cc|Reply-To):.*@yeah\.hlumedia\.com/                         REJECT phishing
-/^(To|From|Cc|Reply-To):.*@oliner\.baeztle\.com/                        REJECT phishing
-/^(To|From|Cc|Reply-To):.*@societegenerale\.fr/                         REJECT phishing
+/^(To|From|Cc|Reply-To):.*@siloex\.online/                              REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@stickr\.co/                                  REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@nickname\.berlin\.de/                        REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@decno\.jp/                                   REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@panoramobe/                                  REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@si-net\.it/                                  REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@dvtrace\.com/                                REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@uparcel\.sg/                                 REJECT PHISHING
+/^(To|From|Cc|Reply-To):helderatosta@gmail\.com/                        REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@nhs\.net/                                    REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@ballard\.visualizeideate\.com/               REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@yeah\.hlumedia\.com/                         REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@oliner\.baeztle\.com/                        REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@societegenerale\.fr/                         REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*messupersbonscoups.*/                         REJECT SPAM
 /^(To|From|Cc|Reply-To):.*MODS.*/                                       REJECT SPAM
 /^(To|From|Cc|Reply-To):.*MODJ.*/                                       REJECT SPAM
@@ -291,6 +291,7 @@
 /^(To|From|Cc|Reply-To):.*@reloekems\.info/                             REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@rolefegaem\.info/                            REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@remiyoel-ka\.info/                           REJECT SPAM
-#test
-/^(To|From|Cc|Reply-To):.*@icloud\.com/                            REJECT test SPAM
+/^(To|From|Cc|Reply-To):.*@velodefonction.bike/                         REJECT SPAM
+/^(To|From|Cc|Reply-To):.*lanewsdejeanne.fr/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*LNDJ/                                         REJECT SPAM
 
