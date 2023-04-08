@@ -291,7 +291,7 @@
 /^(To|From|Cc|Reply-To):.*@reloekems\.info/                             REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@rolefegaem\.info/                            REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@remiyoel-ka\.info/                           REJECT SPAM
-/^(To|From|Cc|Reply-To):.*@velodefonction.bike/                         REJECT SPAM
-/^(To|From|Cc|Reply-To):.*lanewsdejeanne.fr/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@velodefonction\.bike/                         REJECT SPAM
+/^(To|From|Cc|Reply-To):.*lanewsdejeanne\.fr/                            REJECT SPAM
 /^(To|From|Cc|Reply-To):.*LNDJ/                                         REJECT SPAM
 
