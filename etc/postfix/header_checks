@@ -1,4 +1,4 @@
-# V1.01
+# V1.02
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -52,8 +52,11 @@
 /^Subject:(.*)MODS/                                                     REJECT SPAM
 /^Subject:.*Free Cellular Phone/                                        REJECT Possible PHISHING
 /^Subject:.*Simple Fix that lowered Blood Pressure without drugs/       REJECT Possible SPAM
-/^Subject:.*Impost\.gouv\.fr/                                                                   REJECT Possible PHISHING
-/^Subject:Impost\.gouv\.fr.*/                                                                   REJECT Possible PHISHING
+/^Subject:.*Impost\.gouv\.fr/                                           REJECT Possible PHISHING
+/^Subject:Impost\.gouv\.fr.*/                                           REJECT Possible PHISHING
+/^Subject:.*Coupon&Go/                                                  REJECT Possible SPAM
+/^Subject:.*ClicPlan/                                                   REJECT Possible SPAM
+/^Subject:.*Participez à la loterie/                                    REJECT Possible SPAM
 #Divers
 /opt-in/                                                                REJECT Possible SPAM 
 /(.*)?\{6,\}/                                                           REJECT Too many ?????
@@ -294,4 +297,12 @@
 /^(To|From|Cc|Reply-To):.*@velodefonction\.bike/                         REJECT SPAM
 /^(To|From|Cc|Reply-To):.*lanewsdejeanne\.fr/                            REJECT SPAM
 /^(To|From|Cc|Reply-To):.*LNDJ/                                         REJECT SPAM
-
+/^(To|From|Cc|Reply-To):.*couponandgo\.com/                             REJECT Possible SPAM
+/^(To|From|Cc|Reply-To):.*clicplan\.com/                                REJECT Possible SPAM
+/^(To|From|Cc|Reply-To):.*hoistfinance\.fr/                             REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*ouifit\.fr/                                   REJECT Possible SPAM
+/^(To|From|Cc|Reply-To):.*afterch\.com/                                 REJECT Possible SPAM
+/^(To|From|Cc|Reply-To):.*billboarddownload\.com/                       REJECT Possible SPAM
+/^(To|From|Cc|Reply-To):.*thutephe\.fr/                                 REJECT Possible SPAM
+/^(To|From|Cc|Reply-To):.*suprasheep\.fr/                               REJECT Possible SPAM
+/^(To|From|Cc|Reply-To):.*sunworks\.life/                               REJECT Possible SPAM
