@@ -1,4 +1,4 @@
-# V1.03
+# V1.04
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -307,3 +307,4 @@
 /^(To|From|Cc|Reply-To):.*suprasheep\.fr/                               REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*sunworks\.life/                               REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*royalnkba@gmail\.com/                         REJECT Possible SPAM
+/^(To|From|Cc|Reply-To):.*@champsdamourenberry\.com/                    REJECT PHISHING

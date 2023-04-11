@@ -521,6 +521,8 @@
 /piratage de générateur de crédits gratuits badoo/                      REJECT SPAM
 /agitated-ptolemy/                                                      REJECT SPAM SCAM
 /antiagingwithgrace/                                                    REJECT PHISHING
+/pensacoladeepseafishing/                                               REJECT PHISHING
+/wp\/or2\/wells\.php/                                                   REJECT PHISHING
 /126 E 23rd St New York, NY, US 10010/                                  REJECT SPAM
 # IP address start from here
 /61\.56\.84\.218/                                                        REJECT IP interdit
