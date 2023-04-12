@@ -3,7 +3,7 @@
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
 
-# juste ignore
-/^Received:(.*)/ IGNORE
-/^X-Sender:(.*)/ IGNORE
-/^Received:(.*)with ESMTPSA/  IGNORE
+^Received: .*/     IGNORE
+/^X-Originating-IP:/    IGNORE
+/^user-agent: / IGNORE
+/^x-mailer: /   IGNORE
