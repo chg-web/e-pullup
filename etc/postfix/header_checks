@@ -1,4 +1,4 @@
-# V1.05
+# V1.06
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -310,3 +310,16 @@
 /^(To|From|Cc|Reply-To):.*@champsdamourenberry\.com/                    REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*addy.kelly.*@gmail\.com/                      REJECT SPAM
 /^(To|From|Cc|Reply-To):.*simpsonkatie.*@gmail\.com/                    REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@forallisgrowth\.co/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@biopharmcatalyst\.com/                       REJECT SPAM
+/^(To|From|Cc|Reply-To):.*shannonpaul99095@gmail\.com/                  REJECT SPAM
+/^(To|From|Cc|Reply-To):.*google\.lott@hotmail\.com/                    REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*kwellenstein.*@gmail\.com/                    REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*ideepourpro\.com/                             REJECT SPAM
+/^(To|From|Cc|Reply-To):.*logicielreferencement\.com/                   REJECT SPAM
+/^(To|From|Cc|Reply-To):.*miqqy\.net/                                   REJECT SPAM
+/^(To|From|Cc|Reply-To):.*bemgh\.com/                                   REJECT SPAM
+/^(To|From|Cc|Reply-To):.*instn\.nl/                                    REJECT SPAM
+/^(To|From|Cc|Reply-To):.*greyhawklabs\.net/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*hebershouche\.com/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*bestonlinekitchensupplies\.com/               REJECT SPAM

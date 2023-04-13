@@ -1,4 +1,4 @@
-# V1.00
+# V1.01
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -68,6 +68,7 @@
 /v1@gra/                                                                REJECT SPAM DRUG
 /v:a:lium/                                                              REJECT SPAM DRUG
 /xan@x/                                                                 REJECT SPAM DRUG
+/LOTTERY INTERNATIONAL/                                                 REJECT PHISHING
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
@@ -505,6 +506,8 @@
 /zizix\.net/                                                            REJECT SPAM
 /brokenarmbrokenleg\.com/                                               REJECT PHISHING
 /infolabsero\.dns\.army/                                                REJECT PHISHING
+/help-community-wise/                                                   REJECT PHISHING
+/gccinteriors\.ae/                                                      REJECT PHISHING
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
@@ -516,6 +519,7 @@
 # Email 
 /info@emailpromo\.biz/                                                  REJECT mail interdit
 /kufor40@lawyer\.com/                                                   REJECT mail interdit
+/rigade@policemineurseu                                                REJECT PHISHING 
 # Divers
 /dynsrc/                                                                REJECT No auto-loaders, please.
 /piratage de générateur de crédits gratuits badoo/                      REJECT SPAM
