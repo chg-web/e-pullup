@@ -1,4 +1,4 @@
-# V1.06
+# V1.07
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -280,7 +280,7 @@
 /^(To|From|Cc|Reply-To):.*@si-net\.it/                                  REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*@dvtrace\.com/                                REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*@uparcel\.sg/                                 REJECT PHISHING
-/^(To|From|Cc|Reply-To):helderatosta@gmail\.com/                        REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*helderatosta@gmail\.com/                        REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*@nhs\.net/                                    REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*@ballard\.visualizeideate\.com/               REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*@yeah\.hlumedia\.com/                         REJECT PHISHING
@@ -323,3 +323,6 @@
 /^(To|From|Cc|Reply-To):.*greyhawklabs\.net/                            REJECT SPAM
 /^(To|From|Cc|Reply-To):.*hebershouche\.com/                            REJECT SPAM
 /^(To|From|Cc|Reply-To):.*bestonlinekitchensupplies\.com/               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*berlin\.de/                                   REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*pushtinnitus\.autos/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.*through-corporate\.pics/                      REJECT SPAM

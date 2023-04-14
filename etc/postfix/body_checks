@@ -1,4 +1,4 @@
-# V1.01
+# V1.02
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -69,6 +69,7 @@
 /v:a:lium/                                                              REJECT SPAM DRUG
 /xan@x/                                                                 REJECT SPAM DRUG
 /LOTTERY INTERNATIONAL/                                                 REJECT PHISHING
+/LVUKSTORE/                                                             REJECT SPAM SCAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
