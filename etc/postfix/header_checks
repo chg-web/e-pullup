@@ -1,4 +1,4 @@
-# V1.07
+# V1.08
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -326,3 +326,9 @@
 /^(To|From|Cc|Reply-To):.*berlin\.de/                                   REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*pushtinnitus\.autos/                          REJECT SPAM
 /^(To|From|Cc|Reply-To):.*through-corporate\.pics/                      REJECT SPAM
+/^(To|From|Cc|Reply-To):.*nnhennfie\.ru/                                REJECT SPAM SCAM
+/^(To|From|Cc|Reply-To):.*zccrb\.com/                                   REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*turbocast\.net/                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*umakraftpaper\.com/                           REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*rathsophoan.*@gmail\.com/                     REJECT SPAM
+/^(To|From|Cc|Reply-To):.*pfizersgroup\.com/                            REJECT PHISHING
