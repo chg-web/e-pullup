@@ -1,4 +1,4 @@
-# V1.10
+# V1.11
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -57,6 +57,7 @@
 /^Subject:.*Coupon&Go/                                                  REJECT Possible SPAM
 /^Subject:.*ClicPlan/                                                   REJECT Possible SPAM
 /^Subject:.*Participez à la loterie/                                    REJECT Possible SPAM
+/^Subject:.*par ACPM/                                                   REJECT SPAM
 #Divers
 /opt-in/                                                                REJECT Possible SPAM 
 /(.*)?\{6,\}/                                                           REJECT Too many ?????
@@ -345,3 +346,9 @@
 /^(To|From|Cc|Reply-To):.*ranchas\.com/                                 REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@flinghookups\.com/                           REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@les-meilleurs-du-web\.fr/                    REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@unecompourtous\.com/                         REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@coolglow\.com/                               REJECT POSSIBLE PHISHING/SCAM
+/^(To|From|Cc|Reply-To):.*@datingbrb\.com/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@declarkets\.com/                             REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@ulgence\.com/                                REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@offre-gdd\.fr/                               REJECT SPAM 
