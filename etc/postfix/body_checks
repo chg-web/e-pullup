@@ -1,4 +1,4 @@
-# V1.06
+# V1.07
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -513,6 +513,9 @@
 /recouvrement-credit\.com/                                              REJECT SPAM
 /victioned\.com/                                                        REJECT SPAM
 /unecomentreprises\.fr/                                                 REJECT SPAM
+/rmicro\.online/                                                        REJECT SPAM
+/egsro\.com/                                                            REJECT PHISHING
+/maficial\.com/                                                         REJECT PHISHING
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
