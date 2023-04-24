@@ -1,4 +1,4 @@
-# V1.14
+# V1.15
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -58,6 +58,7 @@
 /^Subject:.*ClicPlan/                                                   REJECT Possible SPAM
 /^Subject:.*Participez à la loterie/                                    REJECT Possible SPAM
 /^Subject:.*par ACPM/                                                   REJECT SPAM
+/^Subject:.*RB-USA/                                                     REJECT SPAM
 #Divers
 /opt-in/                                                                REJECT Possible SPAM 
 /(.*)?\{6,\}/                                                           REJECT Too many ?????
@@ -365,3 +366,5 @@
 /^(To|From|Cc|Reply-To):.*@vml895\.com/                                 REJECT SPAM 
 /^(To|From|Cc|Reply-To):.*@regisladatabase\.com/                        REJECT SPAM 
 /^(To|From|Cc|Reply-To):.*@betterworkenvironment\.com/                  REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@musca\.top/                                  REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@betamarges\.pics/                            REJECT SPAM
