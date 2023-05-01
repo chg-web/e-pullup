@@ -1,4 +1,4 @@
-# V1.11
+# V1.12
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -524,6 +524,12 @@
 /cryptoumoneybox\.cn/                                                   REJECT SCAM
 /imicro2\.eu/                                                           REJECT SPAM
 /busty-playmates\.com/                                                  REJECT PHISHING
+/dating-dates\.com/                                                     REJECT SPAM
+/cyberimpact\.com/                                                      REJECT PHISHING
+/bluntcube\.com/                                                        REJECT PHISHING
+/cetenydou\.com/                                                        REJECT PHISHING
+/500k\.uz/                                                              REJECT PHISHING
+
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
