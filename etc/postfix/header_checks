@@ -1,4 +1,4 @@
-# V1.20
+# V1.21
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -382,3 +382,4 @@
 /^(To|From|Cc|Reply-To):.*@thecurrencycourier\.com/                     REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@3862\.com/                                   REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@stikistuff\.com/                             REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@serveur-.*\.tk/                              REJECT SPAM

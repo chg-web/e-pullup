@@ -1,4 +1,4 @@
-# V1.12
+# V1.13
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -73,6 +73,7 @@
 /Ray Ban/                                                               REJECT SPAM SCAM
 /Thanks to Trojan viruses/                                              REJECT SCAM
 /bc1qdnjffh9tpmphuex2pknqg3yeq4g0xvfm2ag53w/                            REJECT SCAM
+/mes offres du jour/                                                    REJECT SPAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
@@ -529,7 +530,9 @@
 /bluntcube\.com/                                                        REJECT PHISHING
 /cetenydou\.com/                                                        REJECT PHISHING
 /500k\.uz/                                                              REJECT PHISHING
-
+/dendog\.ru/                                                            REJECT PHISHING
+/cs-sosensky\.ru/                                                       REJECT PHISHING
+/track\.serveur-*.\.tk/                                                 REJECT SPAM
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
