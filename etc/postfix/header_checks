@@ -383,3 +383,4 @@
 /^(To|From|Cc|Reply-To):.*@3862\.com/                                   REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@stikistuff\.com/                             REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@serveur-.*\.tk/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@qaixa\.com/                                  REJECT SPAM

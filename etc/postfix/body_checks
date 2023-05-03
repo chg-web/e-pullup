@@ -1,4 +1,4 @@
-# V1.13
+# V1.14
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -15,7 +15,8 @@
 /You have successfully updated your password/                           REJECT Possible Virus
 /Members Support/                                                       REJECT Possible Virus
 /Manpower Antivirus - www\.manpower\.ro/                                REJECT Possible Virus
-
+/there are no federal regulations or laws on (email|e-mail) advertising/ REJECT PHISHING
+/LOTTERY INTERNATIONAL/                                                 REJECT PHISHING
 # Dictionnaire SPAM
 /mailto:.*\@.*\?subject\=(3D)*(remove|removeme|pleasedelete|pleaseremove|deleteme)+/ REJECT Lets just say we're removing now.
 /Viagra/                                                                REJECT SPAM DRUG
@@ -43,7 +44,6 @@
 /citrate/                                                               REJECT SPAM DRUG
 /Penis/                                                                 REJECT SPAM PORN
 /diet pill/                                                             REJECT SPAM DRUG
-/there are no federal regulations or laws on (email|e-mail) advertising/ REJECT PHISHING
 /voted sex[-\ ]server on the web/                                       REJECT SPAM PORN
 /Save your soul/                                                        REJECT SPAM SCAM
 /LEGALLY ORDAINED MINISTER /                                            REJECT SPAM SCAM
@@ -68,12 +68,15 @@
 /v1@gra/                                                                REJECT SPAM DRUG
 /v:a:lium/                                                              REJECT SPAM DRUG
 /xan@x/                                                                 REJECT SPAM DRUG
-/LOTTERY INTERNATIONAL/                                                 REJECT PHISHING
+/mes offres du jour/                                                    REJECT SPAM
+#SCAM / escroquerie
 /LVUKSTORE/                                                             REJECT SPAM SCAM
 /Ray Ban/                                                               REJECT SPAM SCAM
 /Thanks to Trojan viruses/                                              REJECT SCAM
 /bc1qdnjffh9tpmphuex2pknqg3yeq4g0xvfm2ag53w/                            REJECT SCAM
-/mes offres du jour/                                                    REJECT SPAM
+/br!gade/                                                               REJECT SCAM
+/desmineurs/                                                            REJECT SCAM
+/@policemineurseu/                                                      REJECT SCAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
@@ -533,6 +536,7 @@
 /dendog\.ru/                                                            REJECT PHISHING
 /cs-sosensky\.ru/                                                       REJECT PHISHING
 /track\.serveur-*.\.tk/                                                 REJECT SPAM
+/borealc\.com/                                                          REJECT PHISHINGg
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
