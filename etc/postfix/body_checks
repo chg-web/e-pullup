@@ -1,4 +1,4 @@
-# V1.16
+# V1.17
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -79,6 +79,7 @@
 /desmineurs/                                                            REJECT SCAM
 /@policemineurseu/                                                      REJECT SCAM
 /18UgngOwfmvgVRzrg20GVp_bfeKGkfd/                                       REJECT PHISHING
+/tulingxueyuan\.cn/                                                     REJECT SCAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
@@ -539,9 +540,10 @@
 /cs-sosensky\.ru/                                                       REJECT PHISHING
 /track\.serveur-*.\.tk/                                                 REJECT SPAM
 /borealc\.com/                                                          REJECT PHISHING
-/tulingxueyuan\.cn/                                                     REJECT SCAM
 /glowingdark\.com/                                                      REJECT SPAM
 /offresdheloise\.com/                                                   REJECT SPAM
+/ritiedye\.com/                                                         REJECT PHISHING
+/clivioweb\.com/                                                        REJECT PHISHING
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
