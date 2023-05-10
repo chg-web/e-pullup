@@ -1,4 +1,4 @@
-# V1.28
+# V1.29
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -402,3 +402,5 @@
 /^(To|From|Cc|Reply-To):.*linfconsos\.com/                              REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@linfoauquotidien\.com/                       REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@uelthrust\.cn\.com/                          REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@dietms\.org/                                 REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@news\.france/                                REJECT PHISHING

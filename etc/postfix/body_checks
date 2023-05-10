@@ -1,4 +1,4 @@
-# V1.21
+# V1.22
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -548,6 +548,7 @@
 /tulingxueyuan\.cn/                                                     REJECT PHISHING
 /ltufar\.ru/                                                            REJECT PHISHING
 /tulingxueyuan\.cn/                                                     REJECT SCAM
+/yaylipaklin\.com/                                                            REJECT PHISHING
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
