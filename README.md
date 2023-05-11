@@ -9,6 +9,9 @@ Liste de fichiers améliorant la sécurité d'un serveur sous Debian
   * /etc/postfix/body_checks                                    : Fichier de détection spam, phishing, scam, virus se trouvant dans le corps de mail pour postfix 
   * /etc/postfix/mime_headers_checks                            : Fichier de détection spam, phishing, scam, virus pouvant se trouver dans des pièces jointes pour postfix 
   * /etc/postfix/sanitize.cf                                    : Fichier de filtre de nettoyage pour supprimer données sensibles dans les headers pour postfix 
+  * /home/badip/badip.log                                       : Fichier contenant les adresses IPv4 d'éléments ayant une activité suspecte contre des serveurs ou sites
+  * /home/badip/badip6.log                                      : Fichier contenant les adresses IPv6 d'éléments ayant une activité suspecte contre des serveurs ou sites
+
 
 ## Minimum requis
 
