@@ -85,7 +85,8 @@
 /propspection sur 50 000 mails pour/                                    REJECT SPAM
 /Liste d'emails professionnels (BtoB)/                                  REJECT SPAM
 /his bottlerush tail held jauntily high/                                REJECT SCAM
-/Bitcoin\.Balance/                                                      REJECT SCAM                
+/Bitcoin\.Balance/                                                      REJECT SCAM  
+/You are now rich/                                                      REJECT SCAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
