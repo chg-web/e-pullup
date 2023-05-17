@@ -1,4 +1,4 @@
-# V1.34
+# V1.35
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -415,3 +415,10 @@
 /^(To|From|Cc|Reply-To):.*@pku\.edu\.cn/                                REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@samerdiab\.net/                              REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*@cible-web\.net/                              REJECT SPAM 
+/^(To|From|Cc|Reply-To):.*@pro\.mailinpro\.fr/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@goldserver-corporate\.top/                   REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@inresultats\.co/                             REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@seconded\.net/                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@info-verified\.eu/                           REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@quelsverreschoisir\.com/                     REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@realestatejob\.com/                          REJECT SPAM
