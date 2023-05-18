@@ -1,0 +1,9 @@
+# V1.01
+# sanitize.cf
+# Rules for filters postfix (header) 
+# Par CHG-WEB - Cédric MONTUY
+
+/^Received: .*/     IGNORE
+/^X-Originating-IP:/    IGNORE
+/^user-agent: / IGNORE
+/^x-mailer: /   IGNORE

@@ -1,0 +1,20 @@
+# V1.00
+# mime_headers_checks
+# Rules for filters postfix (mime_headers_checks) 
+# Par CHG-WEB - Cédric MONTUY
+
+/filename=\"?(.*)\.(bat|chm|cmd|com|do|exe|hta|jse|rm|scr|pif|vbe|vbs|vxd|xl)\"?$/    REJECT For security reasons we reject attachments of this type
+/^\s*Content-(Disposition|Type).*name\s*=\s*"?(.+\.(lnk|asd|hlp|ocx|reg|bat|c[ho]m|cmd|exe|dll|vxd|pif|scr|hta|jse?|sh[mbs]|vb[esx]|ws[fh]|ra|mov|xl))"?\s*$/   REJECT Attachment type not allowed. File "$2" has the unacceptable extension "$3"
+/message\/(partial|external-body)/      REJECT This kind of attachements (message/$1) is rejected.
+
+/(filename|name)="(music*|dhcp*|Emanuel|kmbfejkm|NakedWife|Seicho_no_ie|JAMGCJJA|Happy99|Navidad|prettypark|pretty|data|WTC|wtc|README)\.EXE"/  REJECT Known virus names
+/(filename|name)="(doc|body|file)\.scr"/                                REJECT Possible sources virus type SCR
+/(filename|name)="(document|message|body|text|test)\.pif"/              REJECT Possible sources virus type PIF
+/(filename|name)="(document|message|body|text|test)\.zip"/              REJECT Possible sources virus type ZIP
+/(filename|name)="account-details\.zip"/                                REJECT Possible sources virus/Trojan 
+/(filename|name)="important-details\.zip"/                              REJECT Possible sources malware 
+/(filename|name)="password\.zip"/                                       REJECT Possible sources virus/malware 
+/(filename|name)="new-password\.zip"/                                   REJECT Possible source virus/Trojan 2
+/(filename|name)="account-info\.zip"/                                   REJECT Possible source malware 2
+/(filename|name)="updated-password\.zip"/                               REJECT Possible source virus/Trojan 3
+/(filename|name)="email-details\.zip"/                                  REJECT Possible source malware 3
