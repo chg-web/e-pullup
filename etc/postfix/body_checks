@@ -1,4 +1,4 @@
-# V1.28
+# V1.29
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -92,6 +92,7 @@
 /de la part Dataptron/                                                  REJECT SPAM
 /automatic Bitcoin/                                                     REJECT SCAM
 /To access your account, please consult the attached PDF/               REJECT SCAM
+/Why your antivirus did not detect malware/                             REJECT SCAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
@@ -573,6 +574,7 @@
 /auberge-cavaliere\.com/                                                REJECT SPAM
 /nvcbiotech\.com/                                                       REJECT PHISHING
 /infodata-check\.co/                                                    REJECT SPAM
+/linksimplify\.com/                                                     REJECT SPAM
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
