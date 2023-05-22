@@ -1,4 +1,4 @@
-# V1.37
+# V1.38
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -14,7 +14,7 @@
 /^Subject:(.*)beast/                                                    REJECT Possible SPAM
 /^Subject:(.*)bitch/                                                    REJECT Possible SPAM
 /^Subject:(.*)bodies/                                                   REJECT Possible SPAM
-/^Subject:(.*)breast/                                                   REJECT Possible SPAM
+/^Subject:(.*)breast/                                                   REJECT Possible SPAMs
 /^Subject:(.*)fuck/                                                     REJECT Possible SPAM
 /^Subject:(.*)galore/                                                   REJECT Possible SPAM
 /^Subject:(.*)gay/                                                      REJECT Possible SPAM
@@ -430,3 +430,5 @@
 /^(To|From|Cc|Reply-To):.*@promodeclemence\.com/                        REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@levieraxx\.com/                              REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@sashiraz\.co\.ir/                            REJECT SCAM
+/^(To|From|Cc|Reply-To):.*@enteringdistreenews\.co/                     REJECT SPAM
+/^(To|From|Cc|Reply-To):.*assurprox\.com/                               REJECT PHISHING
