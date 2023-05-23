@@ -1,4 +1,4 @@
-# V1.38
+# V1.39
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -297,10 +297,10 @@
 /^(To|From|Cc|Reply-To):.*@reloekems\.info/                             REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@rolefegaem\.info/                            REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@remiyoel-ka\.info/                           REJECT SPAM
-/^(To|From|Cc|Reply-To):.*@velodefonction\.bike/                         REJECT SPAM
-/^(To|From|Cc|Reply-To):.*lanewsdejeanne\.fr/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@velodefonction\.bike/                        REJECT SPAM
+/^(To|From|Cc|Reply-To):.*lanewsdejeanne\.fr/                           REJECT SPAM
 /^(To|From|Cc|Reply-To):.*LNDJ/                                         REJECT SPAM
-/^(To|From|Cc|Reply-To):.*couponandgo\.com/                             REJECT Possible SPAM
+/^(To|From|Cc|Reply-To):.*couponandgo\.(com|fr)/                        REJECT SPAM
 /^(To|From|Cc|Reply-To):.*clicplan\.com/                                REJECT Possible SPAM
 /^(To|From|Cc|Reply-To):.*hoistfinance\.fr/                             REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*ouifit\.fr/                                   REJECT Possible SPAM
@@ -432,3 +432,5 @@
 /^(To|From|Cc|Reply-To):.*@sashiraz\.co\.ir/                            REJECT SCAM
 /^(To|From|Cc|Reply-To):.*@enteringdistreenews\.co/                     REJECT SPAM
 /^(To|From|Cc|Reply-To):.*assurprox\.com/                               REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*@rocksolutions\.pics/                         REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@artiskit\.com/                               REJECT PHISHING

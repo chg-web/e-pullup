@@ -1,4 +1,4 @@
-# V1.31
+# V1.32
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -578,6 +578,7 @@
 /erikmaster\.com/                                                       REJECT PHISHING
 /rolexandlv017\.blogspot\.com/                                          REJECT SPAM
 /workingrand\.com/                                                      REJECT PHISHING
+/malusoft\.co/                                                          REJECT PHISHING
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
