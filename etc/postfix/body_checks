@@ -1,4 +1,4 @@
-# V1.34
+# V1.35
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -91,8 +91,10 @@
 /dans une base partenaire Permissiony/                                  REJECT SPAM
 /de la part Dataptron/                                                  REJECT SPAM
 /automatic Bitcoin/                                                     REJECT SCAM
+/Bitcoin collection plateform/                                          REJECT SCAM
 /To access your account, please consult the attached PDF/               REJECT SCAM
 /Why your antivirus did not detect malware/                             REJECT SCAM
+/AI technology to earn Bitcoin/                                         REJECT SCAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
