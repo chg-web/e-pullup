@@ -1,4 +1,4 @@
-# V1.36
+# V1.37
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -95,6 +95,7 @@
 /To access your account, please consult the attached PDF/               REJECT SCAM
 /Why your antivirus did not detect malware/                             REJECT SCAM
 /AI technology to earn Bitcoin/                                         REJECT SCAM
+/AP-powered  Bitcoin earning/                                           REJECT SCAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
