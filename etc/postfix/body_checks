@@ -1,4 +1,4 @@
-# V1.38
+# V1.39
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -96,6 +96,9 @@
 /Why your antivirus did not detect malware/                             REJECT SCAM
 /AI technology to earn Bitcoin/                                         REJECT SCAM
 /AI-powered  Bitcoin earning/                                           REJECT SCAM
+/hacked with a Trojan virus/                                            REJECT SCAM
+/spicy videos contain malicious code/                                   REJECT SCAM
+/penetrated your device through adult portals/                          REJECT SCAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
@@ -585,6 +588,8 @@
 /rahiconstruction\.com/                                                 REJECT PHISHING
 /company-verified\.co/                                                  REJECT SPAM
 /controle-ta-voiture\.com/                                              REJECT SPAM
+/apartamentovillacolumbus\.com/                                         REJECT PHISHING
+/wise-business\.com\.transfert-pro\.com/                                REJECT PHISHING
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
