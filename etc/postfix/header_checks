@@ -1,4 +1,4 @@
-# V1.46
+# V1.47
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -67,7 +67,7 @@
 #Return-path
 /^Return-Path:(.*)offers@/                                              REJECT Possible SPAM 
 #x-mailer
-/^X-Mailer:.*\b(Aristotle|Avalanche|Blaster|Bomber|DejaVu|eMerge|Extractor|UltraMail|Sonic|Floodgate|GeoList|Mach10|MegaPro|Aureate|MultiMailer|Bluecom|Achi-Kochi Mail|Direct Email|Andrew's SuperCool Blastoise|MailerGear|Advanced Mass Sender|SpireMail|MailWorkZ|UltimDBMail|Mabry|Lite)\b/            REJECT No mass-mailers, please.
+/^X-Mailer:.*\b(YMailNorrin|Aristotle|Avalanche|Blaster|Bomber|DejaVu|eMerge|Extractor|UltraMail|Sonic|Floodgate|GeoList|Mach10|MegaPro|Aureate|MultiMailer|Bluecom|Achi-Kochi Mail|Direct Email|Andrew's SuperCool Blastoise|MailerGear|Advanced Mass Sender|SpireMail|MailWorkZ|UltimDBMail|Mabry|Lite)\b/            REJECT No mass-mailers, please.
 /^(Received|Message-Id|X-(Mailer|Sender)):.*\b(AutoMail|E-Broadcaster|Emailer Platinum|eMarksman|Extractor|e-Merge|from stealth[^.]|Global Messenger|GroupMaster|Mailcast|MailKing|Match10|MassE-Mail|massmail\.pl|News Breaker|Powermailer|Quick Shot|Ready Aim Fire|WindoZ|WorldMerge|Yourdora|Lite)\b/   REJECT You're using a mass mailer, therefore you're bounced.
 #mails
 /^(To|From|Cc|Reply-To):.*@sympatico\.ca/                               REJECT You spammed us, now you're blocked.  Sympatico.ca...
@@ -451,4 +451,7 @@
 /^(To|From|Cc|Reply-To):.*@procurements\.store/                         REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*@pro\.informations-procurements\.fr/          REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@toutcroissance\.co/                          REJECT SPAM
-/^(To|From|Cc|Reply-To):.*@realsuccessacademy\.com/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@realsuccessacademy\.com/                     REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@formalcroissance\.pics/                      REJECT SPAM
+/^(To|From|Cc|Reply-To):.*detoxbiodunet\.fr/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@jxgpill\.com/                                REJECT SPAM
