@@ -1,4 +1,4 @@
-# V1.40
+# V1.41
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -594,6 +594,7 @@
 /caredogbest\.shop/                                                     REJECT SPAM
 /jumboleadmagnet\.com/                                                  REJECT SPAM
 /medicopostura\.com/                                                    REJECT SPAM
+/in-generation\.top/                                                    REJECT SPAM
 /advanceleadgeneration\.com/
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
