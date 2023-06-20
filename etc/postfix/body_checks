@@ -1,4 +1,4 @@
-# V1.41
+# V1.42
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -71,6 +71,7 @@
 /mes offres du jour/                                                    REJECT SPAM
 /ROCKSMEDIA LIMITED/                                                    REJECT SPAM
 /Alicia Churchill/                                                      REJECT SPAM
+/Adam Smith/                                                            REJECT SPAM
 #SCAM / escroquerie
 /LVUKSTORE/                                                             REJECT SPAM SCAM
 /Ray Ban/                                                               REJECT SPAM SCAM
