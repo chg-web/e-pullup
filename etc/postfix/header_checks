@@ -1,4 +1,4 @@
-# V1.51
+# V1.52
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -470,3 +470,19 @@
 /^(To|From|Cc|Reply-To):.*@ceesnerus\.co/                               REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@datchas\.lt/                                 REJECT SPAM
 /^(To|From|Cc|Reply-To):.*giversidadian\.com/                           REJECT SPAM
+/^(To|From|Cc|Reply-To):.*150euros\.fr/                                 REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@hanterno\.com/                               REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*capital-le-mag\.com/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.*executive-services\.fr/                       REJECT SPAM
+/^(To|From|Cc|Reply-To):.*la-selection-privee\.fr/                      REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@webpourtoi\.fr/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@web-best\.fr/                                REJECT SPAM
+/^(To|From|Cc|Reply-To):.*adn-du-jour\.fr/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*idees-et-astuces\.fr/                         REJECT SPAM
+/^(To|From|Cc|Reply-To):.*giversidadian\.com/                           REJECT SPAM
+/^(To|From|Cc|Reply-To):.*pouce-bleu\.fr/                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@cashbackreduction\.fr/                       REJECT SPAM
+/^(To|From|Cc|Reply-To):.*trouvaille-pratique\.com/                     REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@knb\.ckz/                                    REJECT SCAM
+/^(To|From|Cc|Reply-To):.*pawsafer\.sale/                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@email-voice\.com/                            REJECT SPAM
