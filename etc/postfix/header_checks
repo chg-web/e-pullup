@@ -1,4 +1,4 @@
-# V1.52
+# V1.53
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -486,3 +486,10 @@
 /^(To|From|Cc|Reply-To):.*@knb\.ckz/                                    REJECT SCAM
 /^(To|From|Cc|Reply-To):.*pawsafer\.sale/                               REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@email-voice\.com/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*newspartner\.fr/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*clic-information\.fr/                         REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@beetaania\.co/                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@pme-mkg\.com/                                REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@newletter-tunnel\.co/                        REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@12345-ok\.net/                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@12345-ok\.fr/                               REJECT SPAM
