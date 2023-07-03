@@ -1,4 +1,4 @@
-# V1.53
+# V1.54
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -67,8 +67,8 @@
 #Return-path
 /^Return-Path:(.*)offers@/                                              REJECT Possible SPAM 
 #x-mailer
-/^X-Mailer:.*\b(YMailNorrin|Aristotle|Avalanche|Blaster|Bomber|DejaVu|eMerge|Extractor|UltraMail|Sonic|Floodgate|GeoList|Mach10|MegaPro|Aureate|MultiMailer|Bluecom|Achi-Kochi Mail|Direct Email|Andrew's SuperCool Blastoise|MailerGear|Advanced Mass Sender|SpireMail|MailWorkZ|UltimDBMail|Mabry|Lite)\b/            REJECT No mass-mailers, please.
-/^(Received|Message-Id|X-(Mailer|Sender)):.*\b(AutoMail|E-Broadcaster|Emailer Platinum|eMarksman|Extractor|e-Merge|from stealth[^.]|Global Messenger|GroupMaster|Mailcast|MailKing|Match10|MassE-Mail|massmail\.pl|News Breaker|Powermailer|Quick Shot|Ready Aim Fire|WindoZ|WorldMerge|Yourdora|Lite)\b/   REJECT You're using a mass mailer, therefore you're bounced.
+/^X-Mailer:.*\b(YaBrowser|Yowser|YMailNorrin|Aristotle|Avalanche|Blaster|Bomber|DejaVu|eMerge|Extractor|UltraMail|Sonic|Floodgate|GeoList|Mach10|MegaPro|Aureate|MultiMailer|Bluecom|Achi-Kochi Mail|Direct Email|Andrew's SuperCool Blastoise|MailerGear|Advanced Mass Sender|SpireMail|MailWorkZ|UltimDBMail|Mabry|Lite)\b/            REJECT No mass-mailers, please.
+/^(Received|Message-Id|X-(Mailer|Sender)):.*\b(YaBrowser|Yowser|AutoMail|E-Broadcaster|Emailer Platinum|eMarksman|Extractor|e-Merge|from stealth[^.]|Global Messenger|GroupMaster|Mailcast|MailKing|Match10|MassE-Mail|massmail\.pl|News Breaker|Powermailer|Quick Shot|Ready Aim Fire|WindoZ|WorldMerge|Yourdora|Lite)\b/   REJECT You're using a mass mailer, therefore you're bounced.
 #mails
 /^(To|From|Cc|Reply-To):.*@sympatico\.ca/                               REJECT You spammed us, now you're blocked.  Sympatico.ca...
 /^(To|From|Cc|Reply-To):.*@optonline/                                   REJECT You spammed us, now you're blocked.  Optonline...
@@ -492,4 +492,14 @@
 /^(To|From|Cc|Reply-To):.*@pme-mkg\.com/                                REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@newletter-tunnel\.co/                        REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@12345-ok\.net/                               REJECT SPAM
-/^(To|From|Cc|Reply-To):.*@12345-ok\.fr/                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@12345-ok\.fr/                                REJECT SPAM
+/^(To|From|Cc|Reply-To):.*mail-nmg\.com /                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*ma-jolie-decouverte\.com/                     REJECT SPAM
+/^(To|From|Cc|Reply-To):.*silver-actu\.com/                             REJECT SPAM
+/^(To|From|Cc|Reply-To):.*press-media\.fr/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*vos-meilleurs-deals\.com/                     REJECT SPAM
+/^(To|From|Cc|Reply-To):.*corner-prive\.com/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*propositions-particulieres\.com/              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*ca-tombe-a-pic\.com/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.*mon-bonheur-naturel\.com/                     REJECT SPAM
+
