@@ -1,4 +1,4 @@
-# V1.54
+# V1.55
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -502,4 +502,17 @@
 /^(To|From|Cc|Reply-To):.*propositions-particulieres\.com/              REJECT SPAM
 /^(To|From|Cc|Reply-To):.*ca-tombe-a-pic\.com/                          REJECT SPAM
 /^(To|From|Cc|Reply-To):.*mon-bonheur-naturel\.com/                     REJECT SPAM
-
+/^(To|From|Cc|Reply-To):.*prohebdo\.fr/                                 REJECT SPAM
+/^(To|From|Cc|Reply-To):.*mailinpro\.fr/                                REJECT SPAM
+/^(To|From|Cc|Reply-To):.*infonewsletter\.fr/                           REJECT SPAM
+/^(To|From|Cc|Reply-To):.*info-bureau\.fr/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*com-entreprise\.com/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.*allgrowth\.pics/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*meganatkinson@gmail\.com/                     REJECT SPAM
+/^(To|From|Cc|Reply-To):.*mgosselin.debbie@outlook\.com/                REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@les-titres-restaurants\.com/                 REJECT SPAM
+/^(To|From|Cc|Reply-To):.*upwithlettering\.co/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.*podiatristusa\.sale/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.*suryahadi\.mi\.id/                            REJECT SCAM
+/^(To|From|Cc|Reply-To):.*aprem-.*\.com/                                REJECT SPAM
+/^(To|From|Cc|Reply-To):.*seasubmitter@mail\.com/                       REJECT SPAM

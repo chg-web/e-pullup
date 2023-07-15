@@ -1,4 +1,4 @@
-# V1.44
+# V1.45
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -102,6 +102,7 @@
 /penetrated your device through adult portals/                          REJECT SCAM
 /Atto Smith/                                                            REJECT SPAM
 /YaBrowser/                                                             REJECT SPAM
+/Ready to dominate Youtube?/                                            REJECT SPAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
@@ -600,6 +601,9 @@
 /advanceleadgeneration\.com/                                            REJECT SPAM
 /godaoff\.com/                                                          REJECT SPAM
 /thebackpack\.co/                                                       REJECT SPAM
+/rb\.gy/                                                                REJECT SPAM
+/podiatristusa\.sale/                                                   REJECT SPAM
+/stayfitforlife\.org/                                                   REJECT SCAM
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
