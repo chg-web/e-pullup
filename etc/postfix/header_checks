@@ -1,4 +1,4 @@
-# V1.55
+# V1.56
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -313,7 +313,6 @@
 /^(To|From|Cc|Reply-To):.*@champsdamourenberry\.com/                    REJECT PHISHING
 /^(To|From|Cc|Reply-To):.*addy.kelly.*@gmail\.com/                      REJECT SPAM
 /^(To|From|Cc|Reply-To):.*simpsonkatie.*@gmail\.com/                    REJECT SPAM
-/^(To|From|Cc|Reply-To):.*@forallisgrowth\.co/                          REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@biopharmcatalyst\.com/                       REJECT SPAM
 /^(To|From|Cc|Reply-To):.*shannonpaul99095@gmail\.com/                  REJECT SPAM
 /^(To|From|Cc|Reply-To):.*google\.lott@hotmail\.com/                    REJECT PHISHING
@@ -461,7 +460,6 @@
 /^(To|From|Cc|Reply-To):.*@eu\.appareslabs\.com/                        REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@datingmot\.com/                              REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@hughesschools\.org/                          REJECT SPAM
-/^(To|From|Cc|Reply-To):.*@forallislettering\.co/                       REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@message-business\.com/                       REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@locadresses\.com/                            REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@procurements\.store/                         REJECT PHISHING
@@ -516,3 +514,20 @@
 /^(To|From|Cc|Reply-To):.*suryahadi\.mi\.id/                            REJECT SCAM
 /^(To|From|Cc|Reply-To):.*aprem-.*\.com/                                REJECT SPAM
 /^(To|From|Cc|Reply-To):.*seasubmitter@mail\.com/                       REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@forallis.*\.co/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@bcemoussagne\.space/                         REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@GSXNTEQAAB\.com/                             REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*idee-trouvaille\.com/                         REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@gocpcs\.store/                               REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*offre-speciale\.com/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.*emailnb\.com/                                 REJECT SPAM
+/^(To|From|Cc|Reply-To):.*abo-promo\.com/                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*magazine-info\.fr/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@webbest\.fr/                                 REJECT SPAM
+/^(To|From|Cc|Reply-To):.*mes-coups-de-coeur\.fr/                       REJECT SPAM
+/^(To|From|Cc|Reply-To):.*changement-smart\.com/                        REJECT SPAM
+/^(To|From|Cc|Reply-To):.*best-commande\.com/                           REJECT SPAM
+/^(To|From|Cc|Reply-To):.*domaines-trouvailles\.fr/                     REJECT SPAM
+/^(To|From|Cc|Reply-To):.*clinfodconsos\.com/                           REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@sendbellefringue\.com/                       REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@actinuum\.com/                               REJECT SPAM
