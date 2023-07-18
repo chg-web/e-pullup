@@ -1,4 +1,4 @@
-# V1.56
+# V1.57
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -59,7 +59,7 @@
 /^Subject:.*Participez à la loterie/                                    REJECT Possible SPAM
 /^Subject:.*par ACPM/                                                   REJECT SPAM
 /^Subject:.*RB-USA/                                                     REJECT SPAM
-/^Subject: Offres de Jungle Bee/                                        REJECT SPAM
+/^Subject:.*Offres de Jungle Bee/                                        REJECT SPAM
 #Divers
 /opt-in/                                                                REJECT Possible SPAM 
 /(.*)?\{6,\}/                                                           REJECT Too many ?????
@@ -67,8 +67,8 @@
 #Return-path
 /^Return-Path:(.*)offers@/                                              REJECT Possible SPAM 
 #x-mailer
-/^X-Mailer:.*\b(YaBrowser|Yowser|YMailNorrin|Aristotle|Avalanche|Blaster|Bomber|DejaVu|eMerge|Extractor|UltraMail|Sonic|Floodgate|GeoList|Mach10|MegaPro|Aureate|MultiMailer|Bluecom|Achi-Kochi Mail|Direct Email|Andrew's SuperCool Blastoise|MailerGear|Advanced Mass Sender|SpireMail|MailWorkZ|UltimDBMail|Mabry|Lite)\b/            REJECT No mass-mailers, please.
-/^(Received|Message-Id|X-(Mailer|Sender)):.*\b(YaBrowser|Yowser|AutoMail|E-Broadcaster|Emailer Platinum|eMarksman|Extractor|e-Merge|from stealth[^.]|Global Messenger|GroupMaster|Mailcast|MailKing|Match10|MassE-Mail|massmail\.pl|News Breaker|Powermailer|Quick Shot|Ready Aim Fire|WindoZ|WorldMerge|Yourdora|Lite)\b/   REJECT You're using a mass mailer, therefore you're bounced.
+/^X-Mailer:.*\b(A7interactive|YaBrowser|Yowser|YMailNorrin|Aristotle|Avalanche|Blaster|Bomber|DejaVu|eMerge|Extractor|UltraMail|Sonic|Floodgate|GeoList|Mach10|MegaPro|Aureate|MultiMailer|Bluecom|Achi-Kochi Mail|Direct Email|Andrew's SuperCool Blastoise|MailerGear|Advanced Mass Sender|SpireMail|MailWorkZ|UltimDBMail|Mabry|Lite)\b/            REJECT No mass-mailers, please.
+/^(Received|Message-Id|X-(Mailer|Sender)):.*\b(A7interactive|YaBrowser|Yowser|AutoMail|E-Broadcaster|Emailer Platinum|eMarksman|Extractor|e-Merge|from stealth[^.]|Global Messenger|GroupMaster|Mailcast|MailKing|Match10|MassE-Mail|massmail\.pl|News Breaker|Powermailer|Quick Shot|Ready Aim Fire|WindoZ|WorldMerge|Yourdora|Lite)\b/   REJECT You're using a mass mailer, therefore you're bounced.
 #mails
 /^(To|From|Cc|Reply-To):.*@sympatico\.ca/                               REJECT You spammed us, now you're blocked.  Sympatico.ca...
 /^(To|From|Cc|Reply-To):.*@optonline/                                   REJECT You spammed us, now you're blocked.  Optonline...
@@ -531,3 +531,7 @@
 /^(To|From|Cc|Reply-To):.*clinfodconsos\.com/                           REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@sendbellefringue\.com/                       REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@actinuum\.com/                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*entreprisefrancaise\.fr/                      REJECT SPAM
+/^(To|From|Cc|Reply-To):.*allassanes.*@gmail\.com/                      REJECT SCAM
+/^(To|From|Cc|Reply-To):.*mes-offres-personnalisees\.fr/                REJECT SPAM
+/^(To|From|Cc|Reply-To):.*astuces-a-la-carte\.com/                      REJECT SPAM

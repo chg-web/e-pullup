@@ -1,4 +1,4 @@
-# V1.46
+# V1.47
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -104,6 +104,7 @@
 /Atto Smith/                                                            REJECT SPAM
 /YaBrowser/                                                             REJECT SPAM
 /Ready to dominate Youtube?/                                            REJECT SPAM
+/Agence MD/                                                             REJECT SPAM
 # site
 /lc\.squarepath\.com/                                                   REJECT site interdit
 /cisetefuts\.com/                                                       REJECT site interdit
