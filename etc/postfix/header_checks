@@ -1,4 +1,4 @@
-# V1.59
+# V1.60
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -542,3 +542,21 @@
 /^(To|From|Cc|Reply-To):.*tryclothings\.com/                            REJECT SPAM
 /^(To|From|Cc|Reply-To):.*arbooletees\.co/                              REJECT SPAM
 /^(To|From|Cc|Reply-To):.*jauneetblanc\.fr/                             REJECT SPAM
+/^(To|From|Cc|Reply-To):.*zonedemaria\.com/                             REJECT SPAM
+/^(To|From|Cc|Reply-To):.*managedesinsc\.com/                           REJECT SPAM
+/^(To|From|Cc|Reply-To):.*partenairerelation\.com/                      REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@360distreenews\.co/                          REJECT SPAM
+/^(To|From|Cc|Reply-To):.@lecarrefourdesentrepreneurs\.com/             REJECT SPAM
+/^(To|From|Cc|Reply-To):.*resumedumois\.com/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@upwithcast\co/                               REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@enteringletteriing\.co/                      REJECT SPAM
+/^(To|From|Cc|Reply-To):.*synergisticsourcing\.top/                     REJECT SPAM
+/^(To|From|Cc|Reply-To):.*mensajeinmediato\.com/                        REJECT SPAM
+/^(To|From|Cc|Reply-To):.*conquetopp\.com/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@newsletter-tunneling\.co/                    REJECT SPAM
+/^(To|From|Cc|Reply-To):.*comcampagne\.com/                             REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@idea-bike\.com/                              REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@gw2\.com\.tr/                                REJECT PHISHING
+/^(To|From|Cc|Reply-To):.*venconmanuel\.com/                            REJECT SPAM
+/^(To|From|Cc|Reply-To):.*connectionnews\.fr/                           REJECT SPAM
+/^(To|From|Cc|Reply-To):.*communiquezpro\.com/                          REJECT SPAM
