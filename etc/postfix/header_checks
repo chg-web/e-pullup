@@ -1,4 +1,4 @@
-# V1.60
+# V1.61
 # header_checks
 # Rules for filters postfix (header) 
 # Par CHG-WEB - Cédric MONTUY
@@ -546,7 +546,7 @@
 /^(To|From|Cc|Reply-To):.*managedesinsc\.com/                           REJECT SPAM
 /^(To|From|Cc|Reply-To):.*partenairerelation\.com/                      REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@360distreenews\.co/                          REJECT SPAM
-/^(To|From|Cc|Reply-To):.@lecarrefourdesentrepreneurs\.com/             REJECT SPAM
+/^(To|From|Cc|Reply-To):.*@lecarrefourdesentrepreneurs\.com/             REJECT SPAM
 /^(To|From|Cc|Reply-To):.*resumedumois\.com/                            REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@upwithcast\co/                               REJECT SPAM
 /^(To|From|Cc|Reply-To):.*@enteringletteriing\.co/                      REJECT SPAM
