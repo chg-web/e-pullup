@@ -1,4 +1,4 @@
-# V1.52
+# V1.53
 # body_checks
 # Rules for filters postfix (body) 
 # Par CHG-WEB - Cédric MONTUY
@@ -619,6 +619,7 @@
 /globalinktrade\.top/                                                   REJECT SPAM
 /fusiontradehub\.top/                                                   REJECT SPAM
 /etsy\.com/                                                             REJECT PHISHING
+/TurboLeadGeneration\.com/                                              REJECT SPAM
 # Phone number start from here
 /1-646-514-6006/                                                        REJECT telephone interdit
 /1-646-304-8070/                                                        REJECT telephone interdit
